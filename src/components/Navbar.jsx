@@ -9,8 +9,10 @@ export default function Navbar() {
 
   return (
     <header className="bg-white-2 p-2 lg:py-8">
-      <div className="relative bg-green-1 py-4 md:px-8 px-6 container mx-auto rounded-full flex items-center justify-between lg:divide-x-2 divide-green-3">
-        <img src={logowhite} alt="" className="mr-8 w-36 md:w-40" />
+      <div className="relative bg-green-1 py-6 md:px-8 px-6 container mx-auto rounded-full flex items-center justify-between lg:divide-x-2 divide-green-3">
+        <a href="#">
+          <img src={logowhite} alt="" className="mr-8 w-36 md:w-40" />
+        </a>
         <div className="hidden lg:block w-full">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
@@ -70,7 +72,7 @@ export default function Navbar() {
         </button>
 
         <div
-          className={`absolute top-[4.125rem] left-0 lg:hidden bg-green-1 px-6 py-8 rounded-lg w-full transition-all duration-300 transform ${
+          className={`absolute top-[5.250rem] left-0 lg:hidden bg-green-1 px-6 py-8 rounded-lg w-full transition-all duration-300 transform ${
             isOpen
               ? "translate-y-0 opacity-100 ease-in-out"
               : "-translate-y-[200%] opacity-0 ease-in-out"
