@@ -6,7 +6,7 @@ import Partners from "./Partners";
 export default function Hero() {
   return (
     <section className="bg-white-2">
-      <div className="container mx-auto pb-8 md:pb-16">
+      <div className="container mx-auto pb-8 md:pb-14">
         <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-8 md:py-16 gap-8">
           <div className="flex flex-col gap-y-8 flex-1">
             <h1 className="text-6xl font-extrabold leading-[4.50rem]">
