@@ -15,7 +15,8 @@
 
   h1,
   h2,
-  p {
+  p,
+  span {
     @apply text-green-1;
   }
 }
