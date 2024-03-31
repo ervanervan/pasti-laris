@@ -92,186 +92,186 @@ export default function Services() {
             </TabList>
           </div>
           <div className="px-4 pb-24">
-            {/* <TabPanel className="flex items-center justify-between">
-            <div className="flex items-center justify-center flex-1">
-              <img src={bannerServices} alt="" />
-            </div>
-            <div className="flex flex-col items-start flex-1 gap-8">
-              <div className="flex flex-col gap-y-3">
-                <h2 className="text-3xl font-bold leading-[2.75rem]">
-                  We’re Helping Big <br /> Global Companies Grow
-                </h2>
-                <p className="font-medium text-lg w-4/5">
-                  Track your customers behavior to make a good decision that
-                  helps the customer use our services better way.
-                </p>
+            <TabPanel className="flex flex-col lg:flex-row gap-y-8 items-center justify-between">
+              <div className="flex items-center justify-center flex-1">
+                <img src={bannerServices} alt="" />
               </div>
-              <div className="flex flex-col gap-y-5">
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
-                  </div>
-                  <p className="font-bold text-lg">
-                    Auto running when reaches certain number
+              <div className="flex flex-col items-start flex-1 gap-8">
+                <div className="flex flex-col gap-y-3">
+                  <h2 className="text-3xl font-bold leading-[2.75rem]">
+                    We’re Helping Big <br /> Global Companies Grow
+                  </h2>
+                  <p className="font-medium text-lg w-full md:w-4/5">
+                    Track your customers behavior to make a good decision that
+                    helps the customer use our services better way.
                   </p>
                 </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                <div className="flex flex-col gap-y-5">
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Auto running when reaches certain number
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Sending message to server for repeatation
-                  </p>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Sending message to server for repeatation
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Reporting and extracting the data
-                  </p>
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Reporting and extracting the data
+                    </p>
+                  </div>
                 </div>
+                <Button variant="secondary" size="md">
+                  Learn More
+                </Button>
               </div>
-              <Button variant="secondary" size="md">
-                Learn More
-              </Button>
-            </div>
-          </TabPanel>
-          <TabPanel className="flex items-center justify-between">
-            <div className="flex items-center justify-center flex-1">
-              <img src={bannerServices} alt="" />
-            </div>
-            <div className="flex flex-col items-start flex-1 gap-8">
-              <div className="flex flex-col gap-y-3">
-                <h2 className="text-3xl font-bold leading-[2.75rem]">
-                  We’re Helping Big <br /> Global Companies Grow
-                </h2>
-                <p className="font-medium text-lg w-4/5">
-                  Track your customers behavior to make a good decision that
-                  helps the customer use our services better way.
-                </p>
+            </TabPanel>
+            <TabPanel className="flex flex-col lg:flex-row gap-y-8 items-center justify-between">
+              <div className="flex items-center justify-center flex-1">
+                <img src={bannerServices} alt="" />
               </div>
-              <div className="flex flex-col gap-y-5">
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
-                  </div>
-                  <p className="font-bold text-lg">
-                    Auto running when reaches certain number
+              <div className="flex flex-col items-start flex-1 gap-8">
+                <div className="flex flex-col gap-y-3">
+                  <h2 className="text-3xl font-bold leading-[2.75rem]">
+                    We’re Helping Big <br /> Global Companies Grow
+                  </h2>
+                  <p className="font-medium text-lg w-full md:w-4/5">
+                    Track your customers behavior to make a good decision that
+                    helps the customer use our services better way.
                   </p>
                 </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                <div className="flex flex-col gap-y-5">
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Auto running when reaches certain number
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Sending message to server for repeatation
-                  </p>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Sending message to server for repeatation
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Reporting and extracting the data
-                  </p>
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Reporting and extracting the data
+                    </p>
+                  </div>
                 </div>
+                <Button variant="secondary" size="md">
+                  Learn More
+                </Button>
               </div>
-              <Button variant="secondary" size="md">
-                Learn More
-              </Button>
-            </div>
-          </TabPanel>
-          <TabPanel className="flex items-center justify-between">
-            <div className="flex items-center justify-center flex-1">
-              <img src={bannerServices} alt="" />
-            </div>
-            <div className="flex flex-col items-start flex-1 gap-8">
-              <div className="flex flex-col gap-y-3">
-                <h2 className="text-3xl font-bold leading-[2.75rem]">
-                  We’re Helping Big <br /> Global Companies Grow
-                </h2>
-                <p className="font-medium text-lg w-4/5">
-                  Track your customers behavior to make a good decision that
-                  helps the customer use our services better way.
-                </p>
+            </TabPanel>
+            <TabPanel className="flex flex-col lg:flex-row gap-y-8 items-center justify-between">
+              <div className="flex items-center justify-center flex-1">
+                <img src={bannerServices} alt="" />
               </div>
-              <div className="flex flex-col gap-y-5">
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
-                  </div>
-                  <p className="font-bold text-lg">
-                    Auto running when reaches certain number
+              <div className="flex flex-col items-start flex-1 gap-8">
+                <div className="flex flex-col gap-y-3">
+                  <h2 className="text-3xl font-bold leading-[2.75rem]">
+                    We’re Helping Big <br /> Global Companies Grow
+                  </h2>
+                  <p className="font-medium text-lg w-full md:w-4/5">
+                    Track your customers behavior to make a good decision that
+                    helps the customer use our services better way.
                   </p>
                 </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                <div className="flex flex-col gap-y-5">
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Auto running when reaches certain number
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Sending message to server for repeatation
-                  </p>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Sending message to server for repeatation
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Reporting and extracting the data
-                  </p>
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Reporting and extracting the data
+                    </p>
+                  </div>
                 </div>
+                <Button variant="secondary" size="md">
+                  Learn More
+                </Button>
               </div>
-              <Button variant="secondary" size="md">
-                Learn More
-              </Button>
-            </div>
-          </TabPanel>
-          <TabPanel className="flex items-center justify-between">
-            <div className="flex items-center justify-center flex-1">
-              <img src={bannerServices} alt="" />
-            </div>
-            <div className="flex flex-col items-start flex-1 gap-8">
-              <div className="flex flex-col gap-y-3">
-                <h2 className="text-3xl font-bold leading-[2.75rem]">
-                  We’re Helping Big <br /> Global Companies Grow
-                </h2>
-                <p className="font-medium text-lg w-4/5">
-                  Track your customers behavior to make a good decision that
-                  helps the customer use our services better way.
-                </p>
+            </TabPanel>
+            <TabPanel className="flex flex-col lg:flex-row gap-y-8 items-center justify-between">
+              <div className="flex items-center justify-center flex-1">
+                <img src={bannerServices} alt="" />
               </div>
-              <div className="flex flex-col gap-y-5">
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
-                  </div>
-                  <p className="font-bold text-lg">
-                    Auto running when reaches certain number
+              <div className="flex flex-col items-start flex-1 gap-8">
+                <div className="flex flex-col gap-y-3">
+                  <h2 className="text-3xl font-bold leading-[2.75rem]">
+                    We’re Helping Big <br /> Global Companies Grow
+                  </h2>
+                  <p className="font-medium text-lg w-full md:w-4/5">
+                    Track your customers behavior to make a good decision that
+                    helps the customer use our services better way.
                   </p>
                 </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                <div className="flex flex-col gap-y-5">
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Auto running when reaches certain number
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Sending message to server for repeatation
-                  </p>
-                </div>
-                <div className="flex gap-3 items-center">
-                  <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
-                    <img src={iconCheck} alt="" />
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Sending message to server for repeatation
+                    </p>
                   </div>
-                  <p className="font-bold text-lg">
-                    Reporting and extracting the data
-                  </p>
+                  <div className="flex gap-3 items-center">
+                    <div className="p-1.5 bg-green-2 flex items-center justify-center rounded-full">
+                      <img src={iconCheck} alt="" />
+                    </div>
+                    <p className="font-bold text-lg">
+                      Reporting and extracting the data
+                    </p>
+                  </div>
                 </div>
+                <Button variant="secondary" size="md">
+                  Learn More
+                </Button>
               </div>
-              <Button variant="secondary" size="md">
-                Learn More
-              </Button>
-            </div>
-          </TabPanel> */}
+            </TabPanel>
           </div>
         </Tabs>
       </div>
