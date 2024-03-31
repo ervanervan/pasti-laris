@@ -28,7 +28,7 @@ export default function Services() {
 
         <Tabs>
           <div className="py-12 flex items-center justify-center">
-            <TabList className="flex items-center gap-16 px-4 overflow-x-scroll scrollbar-hide">
+            <TabList className="flex items-center gap-10 md:gap-16 px-4 overflow-x-scroll scrollbar-hide">
               <Tab
                 className={`group shrink-0 flex items-center gap-4 cursor-pointer border-b-4 pb-6 ${
                   activeTab === 0 ? "border-green-2" : "border-transparent"
