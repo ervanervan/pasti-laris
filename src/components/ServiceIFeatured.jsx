@@ -1,5 +1,6 @@
 import React from "react";
 import bannerServicesFeatured from "../assets/illustration_data.png";
+import iconCheckWhite from "../assets/icon-check-white.svg";
 import Button from "./Button";
 
 export default function ServiceIFeatured() {
@@ -21,9 +22,14 @@ export default function ServiceIFeatured() {
               <Button variant="primary" size="md">
                 Get Started
               </Button>
-              <Button variant="secondary" size="md">
-                Watch Demo
-              </Button>
+              <div className="flex gap-3 items-center">
+                <div className="p-1.5 bg-green-1 flex items-center justify-center rounded-full">
+                  <img src={iconCheckWhite} alt="" />
+                </div>
+                <p className="font-bold text-lg">
+                  No credit card required, really.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex items-center justify-center flex-1">
