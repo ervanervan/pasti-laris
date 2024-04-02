@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import Services from "../components/Services";
-import ServiceIFeatured from "../components/ServiceIFeatured";
+import ServiceFeatured from "../components/ServiceFeatured";
 
 const Homepage = () => {
   return (
@@ -12,7 +12,7 @@ const Homepage = () => {
       <Hero />
       <Stats />
       <Services />
-      <ServiceIFeatured />
+      <ServiceFeatured />
     </>
   );
 };
