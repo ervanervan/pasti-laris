@@ -3,7 +3,7 @@ import bannerServicesFeatured from "../assets/illustration_data.png";
 import iconCheckWhite from "../assets/icon-check-white.svg";
 import Button from "./Button";
 
-export default function ServiceIFeatured() {
+export default function ServiceFeatured() {
   return (
     <section className="bg-white-2">
       <div className="container mx-auto">
