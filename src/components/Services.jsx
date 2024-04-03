@@ -19,7 +19,7 @@ export default function Services() {
   return (
     <section>
       <div className="pt-24 container mx-auto">
-        <div className="text-center">
+        <div className="text-center px-4 gap-y-4 flex flex-col">
           <h1 className="font-extrabold text-4xl md:text-5xl lg:leading-[4rem]">
             Good For Your Business
           </h1>
