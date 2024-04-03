@@ -20,10 +20,12 @@ export default function Services() {
     <section>
       <div className="pt-24 container mx-auto">
         <div className="text-center">
-          <h1 className="font-extrabold text-5xl leading-[4rem]">
+          <h1 className="font-extrabold text-4xl md:text-5xl lg:leading-[4rem]">
             Good For Your Business
           </h1>
-          <p>We have designed a feature based on latest research</p>
+          <p className="font-medium text-lg">
+            We have designed a feature based on latest research
+          </p>
         </div>
 
         <Tabs>
