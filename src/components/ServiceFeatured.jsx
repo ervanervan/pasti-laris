@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function ServiceFeatured() {
   return (
     <section className="bg-white-2">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-14">
         <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-8 md:py-16 gap-8">
           <div className="flex flex-col gap-y-8 flex-1">
             <div className="flex flex-col gap-y-3">
