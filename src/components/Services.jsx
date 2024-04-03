@@ -17,7 +17,7 @@ export default function Services() {
   };
 
   return (
-    <section className="">
+    <section>
       <div className="pt-24 container mx-auto">
         <div className="text-center">
           <h1 className="font-extrabold text-5xl leading-[4rem]">
