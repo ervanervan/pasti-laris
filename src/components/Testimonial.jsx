@@ -1,16 +1,16 @@
 import React from "react";
-import bannerServicesFeatured from "../assets/illustration_data.png";
+import bannerTestimonial from "../assets/banner_testimonial.png";
 import iconCheckWhite from "../assets/icon-check-white.svg";
 import Button from "./Button";
 
 const Testimonial = () => {
   return (
-    <section className="bg-white-2">
+    <section>
       <div className="container mx-auto md:px-14">
         <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-8 md:py-16 gap-8">
           <div className="flex items-center justify-center flex-1">
             <img
-              src={bannerServicesFeatured}
+              src={bannerTestimonial}
               alt=""
               draggable="false"
               className="w-full md:w-[28rem]"

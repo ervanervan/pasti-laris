@@ -7,7 +7,7 @@ import arrowBottom from "../assets/arrow-bottom.svg";
 
 export default function SimpleSteps() {
   return (
-    <section className="container mx-auto pt-12 md:py-24">
+    <section className="container mx-auto pt-12 md:pt-24 md:pb-0">
       <div className="text-center px-4 gap-y-4 flex flex-col">
         <h1 className="font-extrabold text-4xl md:text-5xl lg:leading-[4rem]">
           Simple Steps & Done.
