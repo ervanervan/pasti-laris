@@ -17,7 +17,7 @@ export default function SimpleSteps() {
         </p>
       </div>
 
-      <div className="relative flex flex-wrap gap-10 md:gap-20 items-center justify-center md:py-24 my-10">
+      <div className="relative flex flex-wrap gap-5 md:gap-20 items-center justify-center md:py-24 my-10">
         <img
           src={arrowTop}
           alt=""
