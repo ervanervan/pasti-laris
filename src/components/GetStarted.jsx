@@ -5,9 +5,9 @@ import Button from "./Button";
 
 const GetStarted = () => {
   return (
-    <section>
-      <div className="flex items-center justify-center">
-        <div className="flex-1 bg-green-1">
+    <section className="bg-green-1 relative overflow-x-hidden">
+      <div className="container mx-auto flex items-center justify-center px-4">
+        <div className="flex-1">
           <div className="flex flex-col gap-y-8">
             <div className="flex flex-col gap-y-3">
               <h2 className="text-3xl font-bold leading-[2.75rem] text-white-1">
@@ -33,7 +33,7 @@ const GetStarted = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 w-[40rem]">
+        <div className="absolute top-0 -right-14 md:relative md:flex-1 w-[40rem]">
           <img src={bannerGetStarted} alt="" className="w-full" />
         </div>
       </div>
