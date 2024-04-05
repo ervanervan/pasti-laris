@@ -6,6 +6,7 @@ import Services from "../components/Services";
 import ServiceFeatured from "../components/ServiceFeatured";
 import SimpleSteps from "../components/SimpleSteps";
 import Testimonial from "../components/Testimonial";
+import GetStarted from "../components/GetStarted";
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <ServiceFeatured />
       <SimpleSteps />
       <Testimonial />
+      <GetStarted />
     </>
   );
 };
