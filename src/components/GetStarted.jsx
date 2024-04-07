@@ -5,9 +5,9 @@ import Button from "./Button";
 
 const GetStarted = () => {
   return (
-    <section className="bg-green-1 overflow-x-hidden">
-      <div className="container mx-auto flex items-center justify-center px-4">
-        <div className="flex-1">
+    <section className="bg-green-1 overflow-x-hidden py-8 lg:py-0">
+      <div className="container mx-auto flex flex-col lg:flex-row gap-y-8 items-center justify-center px-4">
+        <div className="w-full md:w-3/4 lg:w-1/2">
           <div className="flex flex-col gap-y-8">
             <div className="flex flex-col gap-y-3">
               <h2 className="text-3xl font-bold leading-[2.75rem] text-white-1">
@@ -33,8 +33,12 @@ const GetStarted = () => {
             </div>
           </div>
         </div>
-        <div className="-mr-14 w-[40rem]">
-          <img src={bannerGetStarted} alt="" className="w-full" />
+        <div className="w-full md:w-3/4 lg:w-1/2 lg:-mr-14">
+          <img
+            src={bannerGetStarted}
+            alt=""
+            className="w-full object-contain lg:w-[40rem] rounded-xl lg:rounded-none"
+          />
         </div>
       </div>
     </section>
