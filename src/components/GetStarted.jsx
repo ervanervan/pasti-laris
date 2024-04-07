@@ -33,7 +33,7 @@ const GetStarted = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-3/4 lg:w-1/2 lg:-mr-14">
+        <div className="w-full md:w-3/4 lg:w-1/2 lg:-mr-28">
           <img
             src={bannerGetStarted}
             alt=""
