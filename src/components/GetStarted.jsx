@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const GetStarted = () => {
   return (
-    <section className="bg-green-1 relative overflow-x-hidden">
+    <section className="bg-green-1 overflow-x-hidden">
       <div className="container mx-auto flex items-center justify-center px-4">
         <div className="flex-1">
           <div className="flex flex-col gap-y-8">
@@ -33,7 +33,7 @@ const GetStarted = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-0 -right-14 md:relative md:flex-1 w-[40rem]">
+        <div className="-mr-14 w-[40rem]">
           <img src={bannerGetStarted} alt="" className="w-full" />
         </div>
       </div>
