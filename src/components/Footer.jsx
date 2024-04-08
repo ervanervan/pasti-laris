@@ -18,28 +18,52 @@ export default function Footer() {
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Product</p>
               <div className="flex flex-col gap-y-3 font-medium">
-                <p>SaaS Web Builder</p>
-                <p>Copywriting Templates</p>
-                <p>Automation Tools</p>
-                <p>Users Tracking Behavior</p>
+                <a href="#" className="hover:underline underline-offset-2">
+                  SaaS Web Builder
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Copywriting Templates
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Automation Tools
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Users Tracking Behavior
+                </a>
               </div>
             </div>
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Company</p>
               <div className="flex flex-col gap-y-3 font-medium">
-                <p>Privacy Policy</p>
-                <p>Help Center</p>
-                <p>Terms Conditions</p>
-                <p>About Us</p>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Privacy Policy
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Help Center
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Terms Conditions
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  About Us
+                </a>
               </div>
             </div>
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Developer</p>
               <div className="flex flex-col gap-y-3 font-medium">
-                <p>API Documentations</p>
-                <p>Product Knowledges</p>
-                <p>Ticketing Support</p>
-                <p>Pricing</p>
+                <a href="#" className="hover:underline underline-offset-2">
+                  API Documentations
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Product Knowledges
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Ticketing Support
+                </a>
+                <a href="#" className="hover:underline underline-offset-2">
+                  Pricing
+                </a>
               </div>
             </div>
           </div>
