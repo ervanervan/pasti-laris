@@ -2,9 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer>
-      <div>
-        <p>&copy; 2024 PastiLaris. All rights reserved.</p>
+    <footer className="container mx-auto">
+      <div className="">
+        <p>SaaS template by BuildWithAngga to help big companies grow.</p>
+        <p>&copy; Copyrights Pastilaris.</p>
       </div>
     </footer>
   );
