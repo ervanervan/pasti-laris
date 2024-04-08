@@ -7,6 +7,7 @@ import ServiceFeatured from "../components/ServiceFeatured";
 import SimpleSteps from "../components/SimpleSteps";
 import Testimonial from "../components/Testimonial";
 import GetStarted from "../components/GetStarted";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
       <SimpleSteps />
       <Testimonial />
       <GetStarted />
+      <Footer />
     </>
   );
 };
