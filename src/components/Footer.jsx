@@ -1,5 +1,6 @@
 import React from "react";
 import logoDark from "../assets/logo-dark.svg";
+import { FOOTER_LINKS } from "../data";
 
 export default function Footer() {
   return (
@@ -14,56 +15,51 @@ export default function Footer() {
             </p>
             <p className="font-medium">&copy; Copyrights Pastilaris.</p>
           </div>
+
           <div className="flex flex-wrap gap-7 md:gap-20 items-center justify-between">
+            {/* Products */}
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Product</p>
               <div className="flex flex-col gap-y-3 font-medium">
-                <a href="#" className="hover:underline underline-offset-2">
-                  SaaS Web Builder
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Copywriting Templates
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Automation Tools
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Users Tracking Behavior
-                </a>
+                {FOOTER_LINKS.products.map((product) => (
+                  <a
+                    key={product.id}
+                    href="#"
+                    className="hover:underline underline-offset-2"
+                  >
+                    {product.name}
+                  </a>
+                ))}
               </div>
             </div>
+            {/* Companies */}
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Company</p>
               <div className="flex flex-col gap-y-3 font-medium">
-                <a href="#" className="hover:underline underline-offset-2">
-                  Privacy Policy
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Help Center
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Terms Conditions
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  About Us
-                </a>
+                {FOOTER_LINKS.companies.map((company) => (
+                  <a
+                    key={company.id}
+                    href="#"
+                    className="hover:underline underline-offset-2"
+                  >
+                    {company.name}
+                  </a>
+                ))}
               </div>
             </div>
+            {/* Developers */}
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Developer</p>
               <div className="flex flex-col gap-y-3 font-medium">
-                <a href="#" className="hover:underline underline-offset-2">
-                  API Documentations
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Product Knowledges
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Ticketing Support
-                </a>
-                <a href="#" className="hover:underline underline-offset-2">
-                  Pricing
-                </a>
+                {FOOTER_LINKS.developers.map((developer) => (
+                  <a
+                    key={developer.id}
+                    href="#"
+                    className="hover:underline underline-offset-2"
+                  >
+                    {developer.name}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
