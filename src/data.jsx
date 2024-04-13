@@ -33,3 +33,24 @@ export const DATA_PARTNERS = [
     imgURL: logo5,
   },
 ];
+
+export const DATA_FOOTERS = {
+  products: [
+    { id: 1, name: "SaaS Web Builder" },
+    { id: 2, name: "Copywriting Templates" },
+    { id: 3, name: "Automation Tools" },
+    { id: 4, name: "Users Tracking Behavior" },
+  ],
+  companies: [
+    { id: 1, name: "Privacy Policy" },
+    { id: 2, name: "Help Center" },
+    { id: 3, name: "Terms Conditions" },
+    { id: 4, name: "About Us" },
+  ],
+  developers: [
+    { id: 1, name: "API Documentations" },
+    { id: 2, name: "Product Knowledges" },
+    { id: 3, name: "Ticketing Support" },
+    { id: 4, name: "Pricing" },
+  ],
+};
