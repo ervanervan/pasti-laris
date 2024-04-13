@@ -34,7 +34,7 @@ export const DATA_PARTNERS = [
   },
 ];
 
-export const DATA_FOOTERS = {
+export const FOOTER_LINKS = {
   products: [
     { id: 1, name: "SaaS Web Builder" },
     { id: 2, name: "Copywriting Templates" },
