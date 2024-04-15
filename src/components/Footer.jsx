@@ -16,7 +16,7 @@ export default function Footer() {
             <p className="font-medium">&copy; Copyrights Pastilaris.</p>
           </div>
 
-          <div className="flex flex-wrap gap-7 md:gap-20 items-center justify-between">
+          <div className="flex flex-wrap gap-y-7 gap-x-11 md:gap-20 items-center justify-between">
             {/* Products */}
             <div className="flex flex-col gap-y-5">
               <p className="font-bold">Product</p>
