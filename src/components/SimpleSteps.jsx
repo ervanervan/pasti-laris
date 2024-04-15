@@ -17,17 +17,17 @@ export default function SimpleSteps() {
         </p>
       </div>
 
-      <div className="relative flex px-4 flex-wrap gap-5 md:gap-20 items-center md:justify-center md:py-24 my-10">
+      <div className="relative flex px-4 flex-wrap gap-5 md:gap-10 lg:gap-20 items-center md:justify-center md:py-24 my-10">
         <img
           src={arrowTop}
           alt=""
-          className="absolute top-0 left-44 hidden md:block"
+          className="absolute top-0 left-44 hidden lg:block"
           draggable="false"
         />
         <img
           src={arrowBottom}
           alt=""
-          className="absolute bottom-0 right-48 hidden md:block"
+          className="absolute bottom-0 right-48 hidden lg:block"
           draggable="false"
         />
         <div className="flex flex-col gap-5 p-3">
