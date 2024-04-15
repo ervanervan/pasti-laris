@@ -16,7 +16,7 @@ export default function Hero() {
                 Decision
               </span>
             </h1>
-            <p className="font-medium text-lg w-5/6">
+            <p className="font-medium text-lg md:w-5/6">
               Track your customers behavior to make a good decision that helps
               the customer use our services better way.
             </p>
