@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const GetStarted = () => {
   return (
-    <section className="bg-green-1 overflow-x-hidden py-8 lg:py-0">
+    <section className="bg-green-1 overflow-x-hidden py-12 lg:py-0">
       <div className="container mx-auto flex flex-col lg:flex-row gap-y-8 items-center justify-center px-4">
         <div className="w-full md:w-3/4 lg:w-1/2">
           <div className="flex flex-col gap-y-8">
