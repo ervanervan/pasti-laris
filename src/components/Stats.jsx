@@ -41,7 +41,7 @@ export default function Stats() {
         <img
           src={vector1}
           alt=""
-          className="absolute bottom-0 -right-3 lg:left-36 md:h-full -z-10"
+          className="absolute bottom-0 -right-36 md:-left-64 lg:left-36 md:h-full -z-10"
         />
       </div>
     </section>
