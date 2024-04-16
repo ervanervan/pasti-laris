@@ -18,7 +18,7 @@ export default function Services() {
 
   return (
     <section>
-      <div className="pt-24 container mx-auto">
+      <div className="pt-12 md:pt-24 container mx-auto">
         <div className="text-center px-4 gap-y-4 flex flex-col">
           <h1 className="font-extrabold text-4xl md:text-5xl lg:leading-[4rem]">
             Good For Your Business
@@ -93,7 +93,7 @@ export default function Services() {
               </Tab>
             </TabList>
           </div>
-          <div className="px-4 pb-24">
+          <div className="px-4 pb-12 md:pb-24">
             <TabPanel className="flex flex-col lg:flex-row gap-y-8 items-center justify-between">
               <div className="flex items-center justify-center flex-1">
                 <img src={bannerServices} alt="" />
