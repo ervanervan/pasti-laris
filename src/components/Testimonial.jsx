@@ -7,7 +7,7 @@ const Testimonial = () => {
   return (
     <section>
       <div className="container mx-auto md:px-14">
-        <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-8 md:py-16 gap-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-12 md:py-16 gap-8">
           <div className="flex items-center justify-center flex-1">
             <img
               src={bannerTestimonial}
