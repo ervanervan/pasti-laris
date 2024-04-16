@@ -7,13 +7,13 @@ export default function Stats() {
   return (
     <section className="bg-green-1 overflow-x-hidden">
       <div className="container mx-auto relative z-0">
-        <div className="flex flex-col lg:flex-row items-center justify-between px-4 py-8 md:py-16 gap-8 relative z-10">
+        <div className="flex flex-col lg:flex-row md:items-center justify-between px-4 py-12 md:py-16 gap-8 relative z-10">
           <div>
             <h2 className="text-white-1 font-bold text-3xl leading-[3rem]">
               We Have Big Reasons <br /> Improve People’s Life Today
             </h2>
           </div>
-          <div className="flex flex-col md:flex-row items-start gap-20">
+          <div className="flex flex-col md:flex-row items-start gap-12 md:gap-20">
             <div className="flex gap-x-4">
               <div className="bg-green-2 p-3 rounded-full h-fit">
                 <img src={iconCrown} alt="" />
