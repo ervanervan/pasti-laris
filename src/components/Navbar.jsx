@@ -5,7 +5,7 @@ import { DATA_NAVBARS } from "../data";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const genericHamburgerLine = `h-[2px] w-full my-1 rounded-full bg-white-2 transition ease transform duration-300`;
+  const genericHamburgerLine = `h-[2px] w-full my-1 rounded-full bg-white-2 transition ease-in-out transform duration-300`;
 
   return (
     <header className="bg-white-2 p-2 lg:py-8">
