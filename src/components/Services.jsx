@@ -99,7 +99,7 @@ export default function Services() {
                 <img src={bannerServices} alt="" />
               </div>
               <div className="flex flex-col items-start flex-1 gap-8">
-                <div className="flex flex-col gap-y-3 md:text-center">
+                <div className="flex flex-col gap-y-3 md:text-center lg:text-start">
                   <h2 className="text-3xl font-bold leading-[2.75rem]">
                     We’re Helping Big <br /> Global Companies Grow
                   </h2>
