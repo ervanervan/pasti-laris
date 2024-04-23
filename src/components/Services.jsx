@@ -18,7 +18,7 @@ export default function Services() {
 
   return (
     <section>
-      <div className="pt-12 md:pt-24 container mx-auto">
+      <div className="pt-12 md:pt-24 container mx-auto md:px-14 lg:px-0">
         <div className="text-center px-4 gap-y-4 flex flex-col">
           <h1 className="font-extrabold text-4xl md:text-5xl lg:leading-[4rem]">
             Good For Your Business
@@ -99,11 +99,11 @@ export default function Services() {
                 <img src={bannerServices} alt="" />
               </div>
               <div className="flex flex-col items-start flex-1 gap-8">
-                <div className="flex flex-col gap-y-3">
+                <div className="flex flex-col gap-y-3 text-center">
                   <h2 className="text-3xl font-bold leading-[2.75rem]">
                     We’re Helping Big <br /> Global Companies Grow
                   </h2>
-                  <p className="font-medium text-lg w-full md:w-4/5">
+                  <p className="font-medium text-lg md:mx-auto lg:mx-0 w-full md:w-4/5">
                     Track your customers behavior to make a good decision that
                     helps the customer use our services better way.
                   </p>
