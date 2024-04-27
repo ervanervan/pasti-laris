@@ -10,6 +10,7 @@ import iconCheck from "../assets/icon-check.svg";
 import Button from "./Button";
 import IconCrown from "./IconCrown";
 import IconNode2 from "./IconNode2";
+import IconDeviceMessage from "./IconDeviceMessage";
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState(0);
@@ -74,7 +75,7 @@ export default function Services() {
                     activeTab === 2 ? "bg-green-2" : "bg-gray-1"
                   }`}
                 >
-                  <img src={iconDeviceMessage} alt="" />
+                  <IconDeviceMessage active={activeTab === 2} />
                 </div>
                 <span className="font-semibold text-xl">Lifetime Support</span>
               </Tab>
