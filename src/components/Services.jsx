@@ -11,6 +11,7 @@ import Button from "./Button";
 import IconCrown from "./IconCrown";
 import IconNode2 from "./IconNode2";
 import IconDeviceMessage from "./IconDeviceMessage";
+import IconLock from "./IconLock";
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState(0);
@@ -90,7 +91,7 @@ export default function Services() {
                     activeTab === 3 ? "bg-green-2" : "bg-gray-1"
                   }`}
                 >
-                  <img src={iconLock} alt="" />
+                  <IconLock active={activeTab === 3} />
                 </div>
                 <span className="font-semibold text-xl">High Protection</span>
               </Tab>
