@@ -8,6 +8,7 @@ import iconDeviceMessage from "../assets/icon-device-message.svg";
 import bannerServices from "../assets/banner-services.png";
 import iconCheck from "../assets/icon-check.svg";
 import Button from "./Button";
+import IconCrown from "./IconCrown";
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState(0);
@@ -42,7 +43,7 @@ export default function Services() {
                     activeTab === 0 ? "bg-green-2" : "bg-gray-1"
                   }`}
                 >
-                  <img src={iconCrown} alt="" />
+                  <IconCrown active={activeTab === 0} />
                 </div>
                 <span className="font-semibold text-xl">Automations</span>
               </Tab>
