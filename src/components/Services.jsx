@@ -9,6 +9,7 @@ import bannerServices from "../assets/banner-services.png";
 import iconCheck from "../assets/icon-check.svg";
 import Button from "./Button";
 import IconCrown from "./IconCrown";
+import IconNode2 from "./IconNode2";
 
 export default function Services() {
   const [activeTab, setActiveTab] = useState(0);
@@ -58,7 +59,7 @@ export default function Services() {
                     activeTab === 1 ? "bg-green-2" : "bg-gray-1"
                   }`}
                 >
-                  <img src={iconNote2} alt="" />
+                  <IconNode2 active={activeTab === 1} />
                 </div>
                 <span className="font-semibold text-xl">Real-Time</span>
               </Tab>
